@@ -22,7 +22,8 @@ let package = Package(
         .target(
             name: "SVProgressHUD",
             dependencies: [],
-            path: "SVProgressHUD")
+            path: "SVProgressHUD",
+            publicHeadersPath: "SVProgressHUD")
     ],
     swiftLanguageVersions: [.v5]
 )
